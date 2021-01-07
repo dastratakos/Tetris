@@ -164,7 +164,7 @@ def main():
     BIGFONT = pygame.font.Font('freesansbold.ttf', 100)
     pygame.display.set_caption('Tetromino')
 
-    showTextScreen('Tetrominoasdf')
+    showTextScreen('Tetromino')
     while True: # game loop
         if random.randint(0, 1) == 0:
             pygame.mixer.music.load('tetrisb.mid')
